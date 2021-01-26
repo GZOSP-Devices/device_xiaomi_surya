@@ -6,8 +6,8 @@
 
 $(call inherit-product, device/xiaomi/surya/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common GZR stuff.
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 
 # ANX Camera
 $(call inherit-product, vendor/ANXCamera/config.mk)
@@ -17,7 +17,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_surya
+PRODUCT_NAME := gzosp_surya
 PRODUCT_DEVICE := surya
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X3
